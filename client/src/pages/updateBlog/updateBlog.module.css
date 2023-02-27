@@ -1,0 +1,49 @@
+.container{
+    height: 100%;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.wrapper{
+    max-width: 375px;
+    height: 425px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 12px;
+}
+
+.wrapper > h2{
+    margin: 3rem 0;
+}
+
+.wrapper > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.wrapper > form > input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #333;
+    width: 100%;
+    padding: 0.25rem;
+}
+
+.wrapper > form > select{
+    outline: none;
+    padding: 0.25rem;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.wrapper > form > button{
+    outline: none;
+    padding: 0.25rem 1.5rem;
+    background-color: #000;
+    color: #fff;
+}

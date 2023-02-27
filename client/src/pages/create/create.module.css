@@ -1,0 +1,131 @@
+.container {
+    height: calc(100vh - 60px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #444;
+    border-radius: 22px;
+    padding: 1.5rem;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.inputWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 0.5rem;
+}
+
+.inputWrapper>label {
+    margin-right: 15px;
+    width: 33%;
+}
+
+.inputWrapperImg {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.inputWrapperImg>label>span {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: teal;
+    color: #fff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 150ms all;
+    border-radius: 1rem;
+    margin: 0.1rem 5rem;
+}
+
+.inputWrapperImg>label>span:hover {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: teal;
+    border-color: teal;
+}
+
+.imageName {
+    position: absolute;
+    right: 35rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+}
+
+.closeIcon {
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.input {
+    padding: 0.5rem;
+    width: 77.5%;
+    border-radius: 8px;
+    border: 1px solid rgb(170, 165, 165);
+}
+
+.input:focus {
+    outline: none;
+    border-color: rgb(99, 92, 92);
+}
+
+.buttonWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.submitBtn {
+    white-space: nowrap;
+    background-color: #000;
+    color: #fff;
+    padding: 0.75rem 1.25rem;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 150ms all;
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
+.submitBtn:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+}
+
+.inputWrapperSelect {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputWrapperSelect>select {
+    outline: none;
+    padding: 0.5rem;
+    width: 67.5%;
+    border-radius: 8px;
+    border: 1px solid rgb(170, 165, 165);
+    text-transform: capitalize;
+}

@@ -1,0 +1,116 @@
+.container{
+    min-height: calc(100vh - 60px);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.goBack{
+    position: absolute;
+    text-decoration: none;
+    color: #222;
+    top: 5rem;
+    left: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.wrapper > img{
+    height: 500px;
+    object-fit: cover;
+}
+
+.titleAndControls{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controls{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.controls>.edit{
+    cursor: pointer;
+    padding: 0.4rem 0.75rem;
+    border-radius: 12px;
+    background-color: green;
+    color: #fff;
+}
+
+.controls > .delete{
+    cursor: pointer;
+    padding: 0.4rem 0.75rem;
+    border-radius: 12px;
+    background-color: #f00;
+    color: #fff;
+}
+
+.like{
+    cursor: pointer;
+    padding: 0.4rem 0.75rem;
+    border-radius: 12px;
+    background-color: blue;
+    color: #fff;
+}
+
+.title{
+    font-size: 30px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.descAndLikesViews{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc{
+    margin-top: 2.5rem;
+    color: #333;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.desc > span{
+    color: #000;
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+}
+
+.likesAndViews{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+
+.authorAndCreatedAt{
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+    font-size: 18px;
+}
+
+.authorAndCreatedAt > span > span{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
